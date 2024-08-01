@@ -22,14 +22,14 @@ module.exports = {
 			defaultWelcomeMessage: "Xin chào {userName}.\nChào mừng bạn đến với {boxName}.\nChúc bạn có buổi {session} vui vẻ!"
 		},
 		en: {
-			session1: "morning",
-			session2: "noon",
-			session3: "afternoon",
-			session4: "evening",
-			welcomeMessage: "Thank you for inviting me to the group!\nBot prefix: %1\nTo view the list of commands, please enter: %1help",
-			multiple1: "you",
-			multiple2: "you guys",
-			defaultWelcomeMessage: `Hello {userName}.\nWelcome {multiple} to the chat group: {boxName}\nHave a nice {session} 😊`
+			session1: "𝗺𝗼𝗿𝗻𝗶𝗻𝗴",
+			session2: "𝗻𝗼𝗼𝗻",
+			session3: "𝗮𝗳𝘁𝗲𝗿𝗻𝗼𝗼𝗻",
+			session4: "𝗲𝘃𝗲𝗻𝗶𝗻𝗴",
+			welcomeMessage: "🌐 𝗯𝗼𝘁 𝗰𝗼𝗻𝗻𝗲𝗰𝘁𝗶𝗻𝗴 𝘀𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹𝗹𝘆!!!\n▬▬▬▬▬▬▬▬▬▬▬▬\n༺ღ༒ 𝗭𝗘𝗣𝗛_𝗕𝗢𝗧𝗩𝟮 ༒ღ༻\n💁🏻‍♂️ Thank you for inviting me to the group!\n▬▬▬▬▬▬▬▬▬▬▬▬\n🤖 𝗕𝗼𝘁 𝗽𝗿𝗲𝗳𝗶𝘅:[ %1 ]\n⚠️ To view the list of commands, please enter: %1help\n📩 𝗔𝗱𝗺𝗶𝗻/𝗼𝘄𝗻𝗲𝗿: https://www.facebook.com/kyledev03",
+			multiple1: "𝘆𝗼𝘂",
+			multiple2: "𝘆𝗼𝘂 𝗴𝘂𝘆𝘀",
+			defaultWelcomeMessage: `𝗛𝗲𝗹𝗹𝗼 𝗭𝗲𝗻𝗽𝗮𝗶 ༺ღ༒ {userNameTag} ༒ღ༻\n▬▬▬▬▬▬▬▬▬▬▬▬\n\n💁🏻‍♂️ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 {multiple} 𝘁𝗼 𝘁𝗵𝗲 𝗰𝗵𝗮𝘁 𝗴𝗿𝗼𝘂𝗽: {boxName}\n▬▬▬▬▬▬▬▬▬▬▬▬\nH𝗛𝗮𝘃𝗲 𝗮 𝗻𝗶𝗰𝗲 {session}(◍•ᴗ•◍)`
 		}
 	},
 
