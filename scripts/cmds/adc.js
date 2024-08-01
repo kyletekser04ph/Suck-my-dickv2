@@ -1,9 +1,9 @@
 module.exports = {
 	config: {
 		name: "adc",
-		aliases: ["adc"],
+		aliases: ["ad"],
 		version: "1.2",
-		author: "Loid Butter",//Follow Loid Senpai FB https://www.facebook.com/loidofficiaI
+		author: "Loid Butter",
 		countDown: 5,
 		role: 2,
 		shortDescription: {
@@ -21,7 +21,7 @@ module.exports = {
 	},
 	
 onStart: async function({ api, event, args }) {
-  const permission = ["61550037082227"];
+  const permission = ["100052395031835","100052395031835"];
  if (!permission.includes(event.senderID))
  return api.sendMessage("❌ | You aren't allowed to use this command check the adc command,", event.threadID, event.messageID);
     const axios = require('axios');
@@ -110,4 +110,4 @@ onStart: async function({ api, event, args }) {
       }
     }
   }
-}
+		}
