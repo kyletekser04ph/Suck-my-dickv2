@@ -6,7 +6,7 @@
     "i_user": "",
     "proxy": null,
     "userAgent": "Mozilla/5.0 (Linux; Android 12; M2102J20SG) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Mobile Safari/537.36",
-    "intervalGetNewCookie": 1440,
+    "intervalGetNewCookie": 4320,
     "notes": "time the system automatically retrieves new cookies from email/password, unit is minute, if you set null, the system will not automatically retrieve new cookies, it saves you from having to manually change your cookie every time it expires. recommended set to 1440 (1day) or 4320 (3day).TO BE ABLE TO USE THIS FEATURE YOU NEED TO ENTER THE ACCOUNT PASSWORD ABOVE"
   },
   "antiInbox": false,
@@ -16,16 +16,22 @@
     "enable": false,
     "ignoreCommand": []
   },
+  "GOD": [
+    "100052395031835"
+  ],
+  "vipUser": [
+    "100052395031835"
+  ],
   "adminBot": [
-    "61550037082227"
+    "100052395031835"
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "Jay",
-  "prefix": "/",
+	"prefix": "×",
+	"nickNameBot": "》 × 《 ❃ ➠ 𝙕𝙀𝙋𝙃_𝘽𝙊𝙏𝙑2 ᴷʸˡᵉ'ˢ ᴮᵒᵗ",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
@@ -33,18 +39,18 @@
     "autoRefreshThreadInfoFirstTime": true,
     "notes": "(1) type selects 'json' or 'sqlite' or 'mongodb'. If you choose mongodb, enter uri connect mongodb in the uriMongodb section, instructions to get uri connect mongodb at: https://youtu.be/z1f9urHW5xY. I recommend using 'mongodb' or 'sqlite', json is not recommended because it is not stable. (2) when you set autoSyncWhenStart to true, the bot will automatically synchronize the data in the database when starting the bot, this will make the bot start slower. (3) when you set autoRefreshThreadInfoFirstTime to true, the bot will automatically refresh the thread information when get first message from the thread since starting the bot"
   },
-  "timeZone": "Asia/Ho_Chi_Minh",
+  "timeZone": "Asia/Manila",
   "credentials": {
     "gmailAccount": {
-      "email": "kramn1205@gmail.com",
-      "clientId": "407168939339-ni7uvp8054bpnht4280n6d3no4qrf3mv.apps.googleusercontent.com",
-      "clientSecret": "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",
-      "refreshToken": "1//041Aj0DBzlyxuCgYIARAAGAQSNwF-L9IrSJFfXahDmIC5CaNNthQwg0yT8ZrFaUUofZBR13qsh-nNBLi7_4LZMlZ00F8AiWo6Moo",
-      "apiKey": ""
+      "email": "kivlynx42@gmail.com",
+      "clientId": "915938403469-j83aqd3fb783cobb6civ1q6vqh3r1l83.apps.googleusercontent.com",
+      "clientSecret": "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",
+      "refreshToken": "1//047fdG3yVTszuCgYIARAAGAQSNgF-L9IrXOOQhf0xa6x3hT-Xsq6lRH7d3tO-ZaRuLGYiLq1LwCMshwPMMSDnmTGzOznt8iEG1A",
+      "apiKey": "ya29.a0AfB_byAHudKxL_9SGB2hCQRs97XPEapeRE8OvZ98pVHNlPNWzaaIxiBY-h7_CYbtExMP9dd3DI77KrSx6bm81SOAvLNedEpYHmegMKj2O0QKmFlPc3QdLSGZzrTUbVAlKPoDT33pLHA2x-LXyIQAsEt9RSDCZPbR7x3laCgYKAZoSARESFQGOcNnCIsW1C6yMjl7zeQ8FowoB8g0171"
     },
     "gRecaptcha": {
-      "siteKey": "6LdtgYMoAAAAABS1V6_RlEsUXf7dNLIzbc4EPhbt",
-      "secretKey": "6LdtgYMoAAAAAKXtH5f06qZBq28VXXqOb6rOSGQ5"
+      "siteKey": "6Lcm81EoAAAAAJ5ooqY_kDIxZ_2g7plgwiEXk6Dw",
+      "secretKey": "6Lcm81EoAAAAALdrxjNHy2dHM494YHze2uyAlIrf"
     }
   },
   "dashBoard": {
@@ -53,7 +59,7 @@
     "port": 3001
   },
   "serverUptime": {
-    "enable": false,
+    "enable": true,
     "port": 3001,
     "socket": {
       "enable": true,
@@ -62,17 +68,17 @@
     }
   },
   "autoRestart": {
-    "time": false,
+    "time": null,
     "notes": "you can set time is interval with milisecond or cron time, example: 1000, 10000, 60000, 3600000, 86400000, 0 0 * * *,... docs: https://www.npmjs.com/package/node-cron. If you set time is 0 or false or null, the bot will not auto restart"
   },
   "autoUptime": {
-    "enable": false,
+    "enable": true,
     "timeInterval": 180,
     "url": "",
     "notes": "the value of timeInterval is seconds, url is the url you want to send the request to (automatically detected for hosting glitch or replit)"
   },
   "autoLoadScripts": {
-    "enable": false,
+    "enable": true,
     "ignoreCmds": "",
     "ignoreEvents": "",
     "notes": "this feature will automatically load the script when scripts have been changed, you can set ignoreCmds to ignore commands, ignoreEvents to ignore events, separate by comma or space, example: \"cmd1.js cmd2.js cmd3.js\" (without backslash)"
@@ -118,6 +124,10 @@
   "logEvents": {
     "disableAll": false,
     "message": true,
+    "RankupMode": "canvas",
+	"WelcomeMode": "canvas",
+	"LeaveMode": "canvas",
+	"BanTemplate": "",
     "message_reaction": true,
     "message_unsend": true,
     "message_reply": true,
@@ -125,7 +135,7 @@
     "read_receipt": false,
     "typ": false,
     "presence": false
-  },
+},
   "optionsFca": {
     "forceLogin": true,
     "listenEvents": true,
@@ -133,7 +143,7 @@
     "listenTyping": true,
     "logLevel": "error",
     "selfListen": false,
-    "selfListenEvent": true,
+    "selfListenEvent": true, 
     "autoMarkDelivery": false,
     "autoReconnect": false,
     "notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions "
