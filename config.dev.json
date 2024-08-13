@@ -20,9 +20,11 @@
     "100052395031835"
   ],
   "vipUser": [
+    "61557027725455", 
     "100052395031835"
   ],
   "adminBot": [
+    "61557027725455", 
     "100052395031835"
   ],
   "whiteListMode": {
@@ -30,8 +32,8 @@
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-	"prefix": "×",
-	"nickNameBot": "》 × 《 ❃ ➠ 𝙕𝙀𝙋𝙃_𝘽𝙊𝙏𝙑2 ᴷʸˡᵉ'ˢ ᴮᵒᵗ",
+	"prefix": ".",
+	"nickNameBot": "》 . 《 ❃ ➠ 𝗝𝗠 𝗕𝗢𝗧𝗩𝟮 ᵈᵉʳᵉᶜᵏ'ˢ ᵇᵒᵗ",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
